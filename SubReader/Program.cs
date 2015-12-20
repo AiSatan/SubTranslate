@@ -71,7 +71,7 @@ namespace SubReader
 			var wc = new WebClient();
 			wc.Encoding = System.Text.Encoding.UTF8;
 			var address = new Uri("https://translate.yandex.net/api/v1.5/tr.json/translate?" +
-								  "key=trnsl.1.1.20151220T182743Z.c02b4d4fae48d3e4.508eb90227d665a668681a2a77540fac08ce17e9" +
+								  "key=" +
 								  "&text=" +
 								  world.Trim()
 								  + "&lang=en-ru");
